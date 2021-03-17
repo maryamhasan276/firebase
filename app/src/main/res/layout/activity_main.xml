@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:layout_marginRight="140dp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="208dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edname"
+        android:layout_marginTop="-30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name"
+
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address : "
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="130dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="276dp" />
+
+    <EditText
+        android:id="@+id/edaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="-30dp"
+        android:hint="Adress"
+        android:inputType="textPostalAddress"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number : "
+        android:layout_marginRight="110dp"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="347dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="50dp"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@color/black"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <ListView
+        android:id="@+id/modelTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:textColor="#fff">
+    </ListView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
